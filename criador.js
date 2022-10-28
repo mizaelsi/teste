@@ -140,5 +140,5 @@ function verificando(){
         break;
        }
        //vai aparecer no site para 
-       res.innerHTML= `voce e um(a) ${rece} de ${valor} anos`
+       
     }}}
