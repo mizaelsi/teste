@@ -1,4 +1,5 @@
 //parte que vai mudar a cor do site 
+
 var res=document.getElementById('resu')
 var box= document.getElementById('fundo')
 var dia= document.getElementById('dia')
@@ -8,10 +9,14 @@ var fotos = document.getElementById('fotos')
 var tempo = new Date()
 let hdia = tempo.getHours()
 
+
+
+//parte que vai olhar que hora do dia é e mudar a cor
 if (hdia<=12 ){
   box.style.boxShadow= "41px 14px 15px rgb(17 17 124 / 61%)"
   dia.style.backgroundImage="linear-gradient(130deg, white,#eee66d, #00e1ff 20%"
   sombra.style.textShadow="41px 14px 10px rgb(17 17 124 / 61%)"
+
 } 
 else if (hdia>12 && hdia <18) {
    
@@ -25,6 +30,7 @@ else{
    box.style.boxShadow= " -21px -33px 117px white"
    sombra.style.textShadow="6px -20px 6px rgb(0 0 0 / 61%)"
    cria.style.color='white'
+  
 }
 
 
